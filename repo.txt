@@ -1,1 +1,12 @@
 https://github.com/jjanicefong/gitTest2526.git
+
+i could not deploy to heroku because of the following error:
+
+Build master
+There was an issue deploying your app. View the build log for details.
+
+ !     No default language could be detected for this app.
+			HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+			See https://devcenter.heroku.com/articles/buildpacks
+ !     Push failed
+
