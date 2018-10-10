@@ -1,0 +1,31 @@
+1  clear
+    2  history
+    3   
+    4  cd ~/Desktop 
+    5  mkdir Test2
+    6  cd Test2
+    7  touch commands.txt
+    8  cd ~/Desktop
+    9  git clone https://github.com/jjanicefong/gitTest2526.git
+   10  cd gitTest2526/
+   11  mv ~/Desktop/Test2 ~/Desktop/gitTest2526/
+   12  git add Test2/
+   13  git status
+   14  git commit -m "add Test2 folder"
+   15  got config --global --edit
+   16  git config --global user.name jjanicefong
+   17  git config --global user.email janicefong11@gmail.com
+   18  got config --global --edit
+   19  git status
+   20  git push origin master
+   21  nano repo.txt
+   22  git add repo.txt 
+   23  git status
+   24  git commit -m "add repo.txt"
+   25  git push origin master
+   26  nano index.html
+   27  git add index.html
+   28  git commit -m "add index.html"
+   29  git push origin master
+   30  history
+
