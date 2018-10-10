@@ -28,4 +28,47 @@
    28  git commit -m "add index.html"
    29  git push origin master
    30  history
+31  nano commands.txt
+   32  git add commands.txt
+   33  git status
+   34  git commit -m "add commands in .txt"
+   35  git push origin master
+   36  cd ~/desktop
+   37  mkdir Q1
+   38  cp -r ~/Desktop/gitTest2526/ ~/Desktop/Q1
+   39  cd gitTest2526/
+   40  git tag ver1.00
+   41  git push origin master
+   42  git push origin ver1.00
+   43  git branch special_feature
+   44  git branch
+   45  git checkout special_feature
+   46  cd ~/desktop 
+   47  cd assets
+   48  grep "myhtml" myfile.bak
+   49  cd ~/desktop/gitTest2526/
+   50  nano index.html 
+   51  git add index.html
+   52  git status
+   53  git commit -m "add myhtml code"
+   54  git push origin special_feature
+   55  grep "myjs" ~/Desktop/assets/myfile.bak > ~/desktop/gitTest2526/index.js
+   56  git add index.js
+   57  git status
+   58  git commit -m "grep myjs to index.js"
+   59  git push origin special_feature
+   60  grep "mycss" ~/desktop/assets/myfile.bak > ~/desk
+   61  grep "mycss" ~/desktop/assets/myfile.bak > ~/desktop/gitTest2526/index.css
+   62  git add index.css
+   63  git commit -m "grep mycss to index.css"
+   64  git status
+   65  git push origin special_feature
+   66  git checkout origin master
+   67  git checkout master
+   68  git merge special_feature
+   69  git commit -m "merge special_feature"
+   70  git push origin master
+   71  git tag ver1.01
+   72  git push origin ver1.01
+   73  history
 
